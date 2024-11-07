@@ -16,8 +16,8 @@ const App= () => {
  
  const calculateResult = () => {
   const input = text.join(""); 
-
-setResult(math.evaluate(input));
+  // result
+setResult(math.evaluate(input)); 
  };
  
   const resetInput = (val) => {
